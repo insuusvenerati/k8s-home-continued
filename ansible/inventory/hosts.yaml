@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "node1":
+          ansible_user: "stiforr"
+          ansible_host: "192.168.1.130"
