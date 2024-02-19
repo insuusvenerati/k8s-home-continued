@@ -11,3 +11,8 @@ resources:
   - ./metrics-server.yaml
   - ./openebs.yaml
   - ./stakater.yaml
+  - ./hajimari.yaml
+  - ./nfs-subdir-external.yaml
+  - ./k8s-at-home.yaml
+  - ./stiforr.yaml
+  - ./bitnami.yaml
