@@ -27,7 +27,7 @@ metadata:
   name: ptero-ingress
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: nginx
+    kubernetes.io/ingress.class: external
     cert-manager.io/cluster-issuer: letsencrypt-production
     external-dns.alpha.kubernetes.io/target: "external.${SECRET_DOMAIN}"
 spec:
