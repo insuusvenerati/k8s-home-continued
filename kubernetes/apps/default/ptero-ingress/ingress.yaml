@@ -31,6 +31,7 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-production
     external-dns.alpha.kubernetes.io/target: "external.${SECRET_DOMAIN}"
 spec:
+  ingressClassName: external
   tls:
     - hosts:
         - "ptero.${SECRET_DOMAIN}"
