@@ -12,3 +12,8 @@ resources:
   - ./openebs.yaml
   - ./stakater.yaml
   - ./k8s-at-home.yaml
+  - ./bitnami.yaml
+  - ./nfs-subdir-external.yaml
+  - ./postfinance.yaml
+  - ./stiforr.yaml
+  - ./xenitab.yaml
