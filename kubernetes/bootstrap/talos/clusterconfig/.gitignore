@@ -1,2 +1,5 @@
 home-kubernetes-node1.yaml
 talosconfig
+home-kubernetes-talos1.yaml
+home-kubernetes-talos2.yaml
+home-kubernetes-talos3.yaml
